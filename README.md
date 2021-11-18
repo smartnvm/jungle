@@ -2,6 +2,27 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Final product:
+### Browse Products
+![admin.gif](docs/browse.gif)
+
+### Place Order
+![admin.gif](docs/order.gif)
+
+### Sign-up Process
+![admin.gif](docs/signup.gif)
+
+### Admin views
+![admin.gif](docs/admin.gif)
+
+### Future Considerations 
+1. Add E-mail Receipt Feature
+2. Add Product Ratings Feature
+3. Add Inventory Adjustment Feature
+4. Automated Testing
+
+----
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
@@ -18,7 +39,7 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 5. Create .env file based on .env.example
 6. Sign up for a Stripe account
 7. Put Stripe (test) keys into appropriate .env vars
-8. Run `bin/rails s -b 0.0.0.0` to start the server
+8. Run `bin/rails s -b 0.0.0.0` to start the server 
 
 ## Stripe Testing
 
